@@ -2,7 +2,7 @@
 module.exports = {
   title: "PAACS Documentation",
   tagline: "Documentation for PAACS Software",
-  url: "https://paacs.pro",
+  url: "https://PAACS-Software.github.io/Docs",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
@@ -69,7 +69,7 @@ module.exports = {
           items: [
             {
               label: "Forum",
-              href: "Still to be setup",
+              href: "https://example.com/forum",
             },
           ],
         },
@@ -84,7 +84,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: ({ docPath }) =>
-            `https://github.com/PAACS-Software/Docs/docs/${docPath}`,
+            `https://github.com/PAACS-Software/Docs/${docPath}`,
           //path: 'docs',
           routeBasePath: "/", // Serve the docs at the site's root
           breadcrumbs: true,
