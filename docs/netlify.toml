@@ -1,0 +1,13 @@
+
+[build]
+  base    = "docs"             # Set the base directory for your site files
+  publish = "build"            # Set the directory where your build files are published
+  command = "npm run build"    # Build command to generate the site
+
+[context.production]
+  command = "npm run build"
+
+[[redirects]]
+  from = "/docs/*"
+  to = "/docs/:splat"
+  status = 200
