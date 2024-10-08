@@ -2,22 +2,22 @@
 module.exports = {
   title: "PAACS Documentation",
   tagline: "Documentation for PAACS Software",
-  url: "https://PAACS-Software.github.io/Docs",
-  baseUrl: "/",
+  url: "https://PAACS-Software.github.io",  // URL to your GitHub Pages site
+  baseUrl: "/Docs/",  // Set this to "/" if you want the site to be served from the root
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/drupal.ico",
-  organizationName: "PAACS Software Ltd",
-    projectName: "https://github.com/PAACS-Software/Docs.git",
+  organizationName: "PAACS-Software",  // GitHub organization name
+  projectName: "Docs",  // The repository name (just "Docs")
+  
   themeConfig: {
     announcementBar: {
         id: 'customisation_block',
-        content:
-          'These pages are still under construction',
+        content: 'These pages are still under construction',
         backgroundColor: '#f3a07a',
         textColor: '#fff',
         isCloseable: false,
-      },
+    },
     navbar: {
       title: "PAACS Documentation",
       logo: {
@@ -33,8 +33,8 @@ module.exports = {
         },
         {
             href: "https://github.com/PAACS-Software/Docs",
-          label: "Git",
-          position: "right",
+            label: "Git",
+            position: "right",
         },
       ],
     },
@@ -69,7 +69,7 @@ module.exports = {
           items: [
             {
               label: "Forum",
-              href: "https://example.com/forum",
+              href: "https://example.com/forum",  // Replace with actual URL when available
             },
           ],
         },
@@ -77,6 +77,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} PAACS Software Ltd.`,
     },
   },
+  
   presets: [
     [
       "@docusaurus/preset-classic",
@@ -84,9 +85,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: ({ docPath }) =>
-            `https://github.com/PAACS-Software/Docs/${docPath}`,
-          //path: 'docs',
-          routeBasePath: "/", // Serve the docs at the site's root
+            `https://github.com/PAACS-Software/Docs/edit/main/docs/${docPath}`,  // Edit URL should point to your repo
+          routeBasePath: "/",  // Serve the docs at the site's root
           breadcrumbs: true,
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
@@ -97,23 +97,15 @@ module.exports = {
       },
     ],
   ],
-  // from https://github.com/easyops-cn/docusaurus-search-local
+
   themes: [
-    // ... Your other themes.
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
-        // ... Your options.
-        // `hashed` is recommended as long-term-cache of index file is possible.
         hashed: true,
         highlightSearchTermsOnTargetPage: true,
-	indexDocs: true, // Default is true, but let's force it
-	indexPages: true,
-
-        // For Docs using Chinese, The `language` is recommended to set to:
-        // ```
-        // language: ["en", "zh"],
-        // ```
+        indexDocs: true,
+        indexPages: true,
       },
     ],
   ],
