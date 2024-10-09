@@ -85,7 +85,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl: ({ docPath }) =>
-            `https://github.com/PAACS-Software/Docs/edit/main/docs/${docPath}`,  // Edit URL should point to your repo
+            `https://github.com/PAACS-Software/Docs/edit/main/docs/docs${docPath}`,  // Edit URL should point to your repo
           routeBasePath: "/",  // Serve the docs at the site's root
           breadcrumbs: true,
           showLastUpdateAuthor: true,
