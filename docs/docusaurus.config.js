@@ -6,7 +6,7 @@ module.exports = {
   baseUrl: "/Docs/",  // Set this to "/" if you want the site to be served from the root
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/drupal.ico",
+  favicon: "img/PAACS_logo.ico",
   organizationName: "PAACS-Software",  // GitHub organization name
   projectName: "Docs",  // The repository name (just "Docs")
   
@@ -22,7 +22,7 @@ module.exports = {
       title: "PAACS Documentation",
       logo: {
         alt: "PAACS Logo",
-        src: "img/drupal-logo.svg",
+        src: "img/PAACS_logo.svg",
       },
       items: [
         {
