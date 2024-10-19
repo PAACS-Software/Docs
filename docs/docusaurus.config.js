@@ -31,6 +31,11 @@ module.exports = {
           label: "Getting Started",
           position: "left",
         },
+		{
+          to: "https://paacs.pro",
+          label: "Main Site",
+          position: "right",
+        },
         {
             href: "https://github.com/PAACS-Software/Docs",
             label: "Git",
@@ -42,8 +47,8 @@ module.exports = {
       style: "dark",
       logo: {
         alt: "PAACS Logo",
-        src: "img/logoV1.png",
-        height: "40px",
+        src: "img/PAACS_logo.svg",
+        height: "50px",
       },
       links: [
         {
@@ -51,7 +56,7 @@ module.exports = {
           items: [
             {
               label: "Getting Started",
-              to: "/",
+              to: "https://paacs-software.github.io/Docs/",
             },
           ],
         },
@@ -69,7 +74,7 @@ module.exports = {
           items: [
             {
               label: "Forum",
-              href: "https://example.com/forum",  // Replace with actual URL when available
+              href: "https://www.reddit.com/r/PAACS_Software/",  // Replace with actual URL when available
             },
           ],
         },
