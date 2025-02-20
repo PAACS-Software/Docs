@@ -3,7 +3,7 @@ module.exports = {
   title: "PAACS Documentation",
   tagline: "Documentation for PAACS Software",
   url: "https://PAACS-Software.github.io",  // URL to your GitHub Pages site
-  baseUrl: "/Docs/",  // Set this to "/" if you want the site to be served from the root
+  baseUrl: "/",  // Set this to "/" if you want the site to be served from the root
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/PAACS_logo.ico",
