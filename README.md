@@ -2,7 +2,7 @@
 
 ---
 
-Welcome to the PAACS Documentation Page at [https://paacs.pro/docs](https://docs.paacs.pro/) !
+Welcome to the PAACS Documentation Page at [https://docs.paacs.pro](https://docs.paacs.pro/) !
 
 We strive to make these docs easy for you to use.
 
