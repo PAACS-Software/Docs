@@ -2,16 +2,16 @@
 
 ---
 
-Welcome to the PAACS Documentation Page at [https://paacs.pro/docs](https://paacs-software.github.io/Docs/) !
+Welcome to the PAACS Documentation Page at [https://paacs.pro/docs](https://docs.paacs.pro/) !
 
 We strive to make these docs easy for you to use.
 
 We are continuously expanding the website with guides and tutorials for most use-cases.
 
-## Make changes locally and test
+## Download and run locally (offline)
 
-If you want to make changes to docs and see the changes happening locally
-before pushing the changes, simply run:
+If you want to have the docs running locally so you can access it offline
+you can follow the instructions below:
 ```bash
 ## If you are runinng for the first time
 npm install
@@ -22,4 +22,4 @@ npm start
 
 ## Contact
 
-If you have any questions or concerns, please refer to the 
+If you have any questions or concerns, please refer to the [Contact Page](https://paacs.pro/contact)
